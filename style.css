@@ -1,0 +1,289 @@
+/*
+Theme Name: Ran Yefet
+Theme URI: http://ran.yefet.net/
+Description: The first theme for my personal website.
+Author: Ran Yefet
+Version: 1.0
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	background: transparent;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote {
+	quotes: none;
+}
+blockquote:before, blockquote:after {
+	content: '';
+	content: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a img {
+	border: none;
+}
+
+@font-face {
+	font-family: 'DGLNormadorRegular';
+	src: url('fonts/dgl_normador-webfont.eot');
+	src: local('☺'), url('fonts/dgl_normador-webfont.woff') format('woff'), url('fonts/dgl_normador-webfont.ttf') format('truetype'), url('fonts/dgl_normador-webfont.svg#webfontOTGoTW3L') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'BNTraktorRegular';
+	src: url('fonts/bn_traktor-webfont.eot');
+	src: local('☺'), url('fonts/bn_traktor-webfont.woff') format('woff'), url('fonts/bn_traktor-webfont.ttf') format('truetype'), url('fonts/bn_traktor-webfont.svg#webfontYFnIquoj') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+html, body {
+	width: 100%; height: 100%;
+}
+body {
+	direction: rtl; font-size: 13px; color: #444; font-family: arial;
+}
+.ie7 #wrapper {
+    height: auto; min-height: 100%;
+}
+#wrapper {
+    min-height: 100%;
+}
+#start {
+	height: 50px; background: #f2f2f2;
+    border-top: 10px solid #2B2F34;
+}
+#inner_start {
+    width: 960px; height: 50px; margin: 0 auto; background: url(images/round_logo.png) no-repeat 99% bottom; 
+}
+#header {
+    background: #fff;
+    background-image: -moz-linear-gradient(left, #ebebeb, #fff);
+    /* background:-webkit-gradient(linear, left top, right top, from(#ebebeb), to(#fff)); */    
+    clear: both;    
+}
+.ie6 #header, .ie7 #header {
+    filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorStr='#ebebeb', EndColorStr='#ffffff');
+}
+.ie8 #header {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ebebeb', endColorstr='#ffffff')";
+}
+#logo {
+    width: 960px; margin: 0 auto;
+}
+#logo img {
+    float: right;
+}
+#logo h1 {
+	float: right; margin: 20px 40px 0 0;
+    font-family: 'BNTraktorRegular', tahoma; color: #000; font-size: 72px; font-weight: normal;
+}
+#left_nav {
+	float: left; width: 210px;
+}
+#left_nav img {
+    border: 0; margin: 0 9px 0 0; 
+}
+#left_nav ul, #right_nav ul  {
+	list-style: none;
+}
+#left_nav li {
+	float: right; padding-top: 5px; text-align: center; width: 42px;
+}
+.ie9 #left_nav li {
+    padding-top: 0;
+}
+#top_rss {
+    border-top: 5px solid #ff9331;
+}
+#top_fb {
+    border-top: 5px solid #7592cf;
+}
+#top_twitter {
+    border-top: 5px solid #76d0eb;
+}
+#top_in {
+    border-top: 5px solid #417da1;
+}
+#top_flickr {
+    border-top: 5px solid #f1168f;
+}
+#left_nav a {
+	padding: 6px; font-size: 16px;  color: #B3BAB1; text-decoration: none;
+}
+#main {
+	width: 960px; margin: 20px auto 0; 
+	padding-bottom: 0;
+}
+#right_nav {
+	float: right; width: 150px; 
+	/* padding-top: 30px; */
+}
+#left_side { 
+	float: right; width: 806px;
+}
+#right_nav ul {
+	margin-top: 6px;
+}
+#right_nav li {
+	padding: 6px 15px 6px 0; font-size: 28px; font-family: 'DGLNormadorRegular', tahoma; 
+}
+#right_nav li a {
+	 color: #C3C4C3; text-decoration: none;
+}
+#right_nav li a:hover {
+	 color: #393B39; 
+}
+.current {
+	color: #3D3D3D !important; font-weight: bold;
+}
+#description h2 {
+	font-family: 'BNTraktorRegular', 'DGLNormadorRegular', tahoma; font-size: 30px; padding: 10px 0 30px; color: #000;
+    text-shadow: 1px #292a29; font-weight: normal;
+}
+.web {
+    font-family: arial !important; font-size: 25px; font-weight: 600;
+}
+.blue {
+	color: #4a97c8;
+}
+.clear {
+    clear: both;
+}
+
+#content {
+    /* padding-top: 30px; */
+}
+#content h2 {
+    margin-bottom: 10px;
+}
+#content h2 a {
+    font-family: 'DGLNormadorRegular', tahoma; font-size: 38px; color: #000; letter-spacing: 1px; text-decoration: none;
+}
+#flickr h2 a {
+    color: #EB5089; background: url(images/flickr.png) no-repeat right center; padding-right: 38px;
+}
+#blog, #twitter {
+    width: 380px; float: right; margin-bottom: 40px;
+}
+#blog {
+     margin-left: 30px;
+}
+#blog h2 a {
+    color: #fe6c01; background: url(images/blog.png) no-repeat right center; 
+    padding: 10px 52px 0; margin: 0 0 30px;
+}
+#blog ul {
+    list-style: none;
+}
+#blog li {
+    margin-bottom: 10px;
+    background: #ececec;
+    background-image: -moz-linear-gradient(left, #ececec, #f4f4f4);
+    background:-webkit-gradient(linear, left top, right top, from(#ececec), to(#f4f4f4)); 
+
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-bottomleft: 4px;    
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+
+    border-right: 6px solid #fe6c01;
+}
+.ie9 #blog li {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;    
+}
+.ie6 #blog li, .ie7 #blog li {
+    filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorStr='#ececec', EndColorStr='#f4f4f4');
+}
+#blog li a {
+    font-size: 16px; padding: 10px 20px; 
+    display: block;color: #000; text-decoration: none; line-height: 25px;
+}
+#blog li a span {
+    text-decoration: underline; color: #fa9952; font-weight: bold;
+}
+#twitter h2 a {
+    color: #427390; background: url(images/twitter.png) no-repeat right center; 
+    padding: 10px 58px 0; margin: 0 0 30px;
+}
+.ie9 #twitter h2 a {
+    padding-left: 0;
+}
+#twitter div {
+    font-size: 18px; 
+    height: 200px;
+    margin-bottom: 10px;
+    
+    background: #ececec;
+    background-image: -moz-linear-gradient(left, #ececec, #f4f4f4);
+    background:-webkit-gradient(linear, left top, right top, from(#ececec), to(#f4f4f4)); 
+       
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-bottomleft: 4px;    
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    
+    border-right: 6px solid #427390;
+}
+.ie9 #twitter div {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;    
+}
+.ie6 #twitter div, .ie7 #twitter div {
+    filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorStr='#ececec', EndColorStr='#f4f4f4');
+}
+#twitter p {
+    padding: 40px 20px;
+}
+#twitter span {
+    font-size: 13px; line-height: 45px;
+}
+#flickr{
+    margin-bottom: 40px;
+}
+
+#flickr img {
+    margin: 2px; border: 1px solid #cccccc; padding: 2px; 
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px; 
+}
+
+.ie9 #flickr img {
+    border-radius: 0;
+}
+
+#footer {
+	position: relative; margin-top: -30px; height: 30px; width: 100%; margin-bottom: 0; padding: 0;
+    background: #2B2F34; clear: both;
+}
+
